@@ -1,0 +1,140 @@
+/** {
+    box-sizing: border-box;
+}*/
+.container1 {
+    display: flex;
+    background-color: rgb(255, 215, 106);
+    padding-left: none;
+    align-items: center;   
+}
+a:link{
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+a:hover{
+    color:rgba(100, 148, 237, 0.596);
+}
+.icon > a:link{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100%;
+    color: black;
+    font-size: 1.5em;
+}
+.carousel-item:after{
+    content: "";
+    padding-bottom: 40%;
+    display: block;
+}
+.carousel-item{
+    display: block;
+    background-size: cover;
+    background-position: center;
+}
+.row1{
+    padding-left: 33.3333%;
+}
+
+.caracteristici{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.column {
+    width: 150px;
+    height: 150px;
+}
+.square-image{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid gray;
+    background-size: cover;
+}
+.si-1{
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/18/18/37/puppy-1207816__340.jpg);
+}
+.si-2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/17/13/13/puppy-1047521__340.jpg);
+}
+.si-3{
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/26/17/18/cavalier-king-charles-spaniel-5952324__480.jpg);
+
+}
+
+.row3{
+    display:flex;
+    padding: auto;
+}
+.column{
+    text-align: center;
+}
+
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color:rgba(250, 147, 51, 0.637);
+    color: black;
+    font-family: lighter;    
+}
+
+.resize{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+label {
+    display: block;
+    font: 12px 'Fira Sans', sans-serif;
+}
+.btn{
+    display: flex;
+    padding: 20%;
+
+}
+.row2 {
+    padding-left: 33.3333%;
+    padding-right: 33.3333%;
+}
+form > div{
+    font: 12px 'Fira Sans', sans-serif;
+}
+
+
+/* Contact */
+
+.contact > .row{
+    padding-left: 10%;
+}
+.map-container{
+    display: flex;
+    padding: 5%;
+}
+
+/* Despre noi */
+.text{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 30px;
+}
+
+.container3{
+    background-color: rgba(255, 236, 68, 0.26);
+    padding-bottom: 40px;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+
+.row > .card{
+    padding-left: 5%;
+    padding-right: 5%;
+}
